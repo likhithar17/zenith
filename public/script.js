@@ -296,7 +296,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'Nishanth. S':    { linkedin: '#', github: '#' },
     'Sanchitha':      { linkedin: '#', github: '#' },
     'Vineeth':        { linkedin: '#', github: '#' },
-    'Kripa':          { linkedin: '#', github: '#' },
+    'Kripa':          { linkedin: 'https://www.linkedin.com/in/kripa-singh-524175385/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BflU9sb0hTHuH4k0NHjzOQw%3D%3D', github: 'https://github.com/kripasingh18' },
     'Sai Urs':        { linkedin: '#', github: '#' },
     'Shree Lakshmi':  { linkedin: '#', github: '#' },
     'Suhas':          { linkedin: '#', github: '#' },
