@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "zenith-9f86c-aa0b0",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
