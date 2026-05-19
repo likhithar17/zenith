@@ -297,7 +297,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'Sanchitha':      { linkedin: '#', github: '#' },
     'Vineeth. J':        { linkedin: 'https://www.linkedin.com/in/vineeth-jagadeesh-140674387?utm_source=share_via&utm_content=profile&utm_medium=member_android', github: 'https://github.com/vineeth-ctrl' },
     'Kripa':          { linkedin: 'https://www.linkedin.com/in/kripa-singh-524175385/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BflU9sb0hTHuH4k0NHjzOQw%3D%3D', github: 'https://github.com/kripasingh18' },
-    'Sai Urs':        { linkedin: '#', github: '#' },
+    'Sai Satvik N Urs':        { linkedin: '#', github: '#' },
     'Likhitha ':        { linkedin: 'https://www.linkedin.com/in/likhitha-r-258432383?utm_source=share_via&utm_content=profile&utm_medium=member_android', github: 'https://github.com/likhithar17' },
     'Shree Lakshmi':  { linkedin: '#', github: '#' },
     'Suhas':          { linkedin: '#', github: '#' },
