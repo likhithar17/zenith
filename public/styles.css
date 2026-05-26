@@ -578,7 +578,7 @@ section {
 /* ---------- Team Card Social Overlay ---------- */
 .team-card {
   cursor: pointer;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .team-social-overlay {
