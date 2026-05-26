@@ -578,7 +578,7 @@ section {
 /* ---------- Team Card Social Overlay ---------- */
 .team-card {
   cursor: pointer;
-  overflow: visible;
+  overflow: hidden;
 }
 
 .team-social-overlay {
@@ -588,9 +588,6 @@ section {
   backdrop-filter: blur(16px);
   display: flex;
   align-items: center;
-  position: relative;
-z-index: 9999;
-pointer-events: auto;
   justify-content: center;
   gap: 1.2rem;
   opacity: 0;
