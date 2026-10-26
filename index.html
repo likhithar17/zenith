@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Club Zenith — Beyond Peaks. Together.</title>
+  <meta name="description" content="Club Zenith is a premier college tech club driving innovation, leadership, and technology-driven growth. Join us to innovate, build, and lead the future." />
+  <link rel="icon" href="logo.jpg" type="image/jpeg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Galaxy Canvas Background -->
+  <canvas id="galaxy-canvas"></canvas>
+  <div class="nebula-overlay"></div>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <a href="#hero" class="nav-logo">
+      <img src="logo.jpg" alt="Club Zenith Logo" />
+      <span>ZENITH</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#vision">Vision &amp; Mission</a></li>
+      <li><a href="#whatwedo">What We Do</a></li>
+      <li><a href="#whyjoin">Why Join</a></li>
+      <li><a href="#team">Core Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="hero">
+    <img src="logo.jpg" alt="Club Zenith Logo" class="hero-logo" />
+    <h1 class="hero-title">CLUB ZENITH</h1>
+    <p class="hero-tagline" id="tagline"></p>
+    <div class="hero-cta">
+      <a href="#contact" class="cta-btn" id="ctaBtn">Become a Zenith Member</a>
+    </div>
+  </section>
+
+  <!-- ========== VISION & MISSION ========== -->
+  <section id="vision">
+    <div class="section-divider reveal"></div>
+    <h2 class="section-title reveal">Vision &amp; Mission</h2>
+    <p class="section-subtitle reveal">Charting the course toward a brighter, tech-empowered future.</p>
+
+    <div class="vm-grid">
+      <!-- Vision Card -->
+      <div class="vm-card reveal">
+        <div class="card-icon">🔭</div>
+        <h3>Our Vision</h3>
+        <p>To be the premier student-led technology community that empowers the next generation of innovators, builders, and leaders. We envision a campus ecosystem where curiosity thrives, ideas transform into impact, and every member reaches their highest potential — their zenith.</p>
+      </div>
+      <!-- Mission Card -->
+      <div class="vm-card reveal">
+        <div class="card-icon">🚀</div>
+        <h3>Our Mission</h3>
+        <p>To foster a culture of continuous learning, collaborative innovation, and hands-on experience. Through hackathons, workshops, tech talks, and real-world projects, we bridge the gap between academic knowledge and industry excellence — building tomorrow's tech leaders today.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHAT WE DO ========== -->
+  <section id="whatwedo">
+    <div class="section-divider reveal"></div>
+    <h2 class="section-title reveal">What We Do</h2>
+    <p class="section-subtitle reveal">Pushing boundaries through innovation, one event at a time.</p>
+
+    <div class="wwd-grid">
+      <div class="wwd-card reveal">
+        <span class="card-icon">💻</span>
+        <h3>Hackathons</h3>
+        <p>Intense coding marathons where teams compete to build innovative solutions in limited time. From ideation to deployment — pure adrenaline-fueled creation.</p>
+      </div>
+      <div class="wwd-card reveal">
+        <span class="card-icon">🎤</span>
+        <h3>Tech Talks</h3>
+        <p>Industry experts and thought leaders share cutting-edge insights on AI, blockchain, cloud computing, and emerging technologies that shape our world.</p>
+      </div>
+      <div class="wwd-card reveal">
+        <span class="card-icon">🛠️</span>
+        <h3>Workshops</h3>
+        <p>Hands-on sessions covering web development, machine learning, IoT, cybersecurity, and more. Learn by doing, guided by experienced mentors.</p>
+      </div>
+      <div class="wwd-card reveal">
+        <span class="card-icon">🤝</span>
+        <h3>Company Collabs</h3>
+        <p>Strategic partnerships with tech companies for mentorship programs, internship pipelines, sponsored projects, and exclusive networking events.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHY JOIN ========== -->
+  <section id="whyjoin">
+    <div class="section-divider reveal"></div>
+    <h2 class="section-title reveal">Why Join Club Zenith</h2>
+    <p class="section-subtitle reveal">Unlock your potential and accelerate your journey in tech.</p>
+
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <span class="icon">🌐</span>
+        <h4>Networking</h4>
+        <p>Connect with like-minded peers, alumni, and industry professionals.</p>
+      </div>
+      <div class="why-card reveal">
+        <span class="icon">🔨</span>
+        <h4>Real Projects</h4>
+        <p>Work on real-world projects that build your portfolio and skills.</p>
+      </div>
+      <div class="why-card reveal">
+        <span class="icon">👑</span>
+        <h4>Leadership</h4>
+        <p>Lead teams, organize events, and develop management expertise.</p>
+      </div>
+      <div class="why-card reveal">
+        <span class="icon">⚡</span>
+        <h4>Tech Exposure</h4>
+        <p>Stay ahead with hands-on experience in cutting-edge technologies.</p>
+      </div>
+      <div class="why-card reveal">
+        <span class="icon">🧩</span>
+        <h4>Collaboration</h4>
+        <p>Build together in cross-functional teams with diverse skill sets.</p>
+      </div>
+      <div class="why-card reveal">
+        <span class="icon">💡</span>
+        <h4>Innovation</h4>
+        <p>A culture that celebrates creative thinking and bold ideas.</p>
+      </div>
+      <div class="why-card reveal">
+        <span class="icon">🎯</span>
+        <h4>Events Access</h4>
+        <p>Exclusive access to workshops, seminars, and hackathons year-round.</p>
+      </div>
+    </div>
+  </section>
+  
+<!-- ========== CORE TEAM ========== -->
+<section id="team">
+  <div class="section-divider reveal"></div>
+  <h2 class="section-title reveal">Core Team</h2>
+  <p class="section-subtitle reveal">
+    The team driving Club Zenith forward.
+  </p>
+
+  <!-- Main team members -->
+  <div class="team-grid">
+
+    <div class="team-card reveal">
+      <div class="team-avatar"> <img src="nishanth.jpeg" alt="Nishanth S.">
+      </div>
+      <h4>Nishanth S.</h4>
+      <span class="role">President</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar">👤</div>
+      <h4>Sanchitha S.</h4>
+      <span class="role">Vice President</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar"><img src="vineeth.png" alt="Vineet J."></div>
+      <h4>Vineet J.</h4>
+      <span class="role">Secretary</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar"><img src="kripa.png" alt="Kripa Singh"></div>
+      <h4>Kripa Singh</h4>
+      <span class="role">Software Head</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar">
+        <img src="sai.png" alt="Sai Sathwik N. Urs">
+      </div>
+      <h4>Sai Sathwik N. Urs</h4>
+      <span class="role">Hardware Head</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar"><img src="likhitha.png" alt="Likhitha R."></div>
+      <h4>Likhitha R.</h4>
+      <span class="role">Designing Head</span>
+    </div>
+
+  </div>
+
+  <!-- Show remaining members -->
+  <div style="text-align:center; margin-top:2.5rem;">
+    <button
+      class="cta-btn"
+      id="seeMoreBtn"
+      type="button"
+      aria-expanded="false"
+      aria-controls="otherMembersGrid"
+      style="padding:0.8rem 2.5rem; font-size:0.85rem;"
+    >
+      See Other Members
+    </button>
+  </div>
+
+  <!-- Other committee members -->
+  <div
+    class="team-grid"
+    id="otherMembersGrid"
+    style="display:none; margin-top:2.5rem;"
+  >
+
+    <div class="team-card reveal">
+      <div class="team-avatar">👤</div>
+      <h4>Varsha</h4>
+      <span class="role">Senior Executive</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar">👤</div>
+      <h4>Siri</h4>
+      <span class="role">Student Ambassador</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar">👤</div>
+      <h4>Spoorthy</h4>
+      <span class="role">Club Ambassador</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar">👤</div>
+      <h4>Sukanya</h4>
+      <span class="role">Disciplinary Coordinator</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar">👤</div>
+      <h4>Shreeveera</h4>
+      <span class="role">Technical Coordinator</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar">👤</div>
+      <h4>Shree Laksmi M.</h4>
+      <span class="role">Treasurer</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar">👤</div>
+      <h4>Thejaswi Bharadwaj S.</h4>
+      <span class="role">Documentation Head</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar">👤</div>
+      <h4>Avishkaa R.</h4>
+      <span class="role">Event Management Lead</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar">👤</div>
+      <h4>Rohan J.</h4>
+      <span class="role">Logistics Head</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar">👤</div>
+      <h4>Varshitha H. D.</h4>
+      <span class="role">Outreach Head</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar">👤</div>
+      <h4>Suhas K.</h4>
+      <span class="role">Social Media Head</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar">👤</div>
+      <h4>Sai Gagan C.</h4>
+      <span class="role">Marketing Lead</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar">👤</div>
+      <h4>Ninaad</h4>
+      <span class="role">Marketing Associate</span>
+    </div>
+
+    <div class="team-card reveal">
+      <div class="team-avatar">👤</div>
+      <h4>Poorvi Suma</h4>
+      <span class="role">Marketing Associate</span>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ========== FOOTER / CONTACT ========== -->
+  <footer class="footer" id="contact">
+    <div class="footer-content">
+      <div class="social-links">
+        <a href="#" aria-label="Instagram" title="Instagram">📷</a>
+        <a href="#" aria-label="LinkedIn" title="LinkedIn">💼</a>
+        <a href="#" aria-label="Twitter / X" title="Twitter / X">✖️</a>
+        <a href="#" aria-label="GitHub" title="GitHub">🐙</a>
+        <a href="#" aria-label="YouTube" title="YouTube">▶️</a>
+      </div>
+      <div class="footer-contact">
+        <p>📧 <a href="mailto:club.zenith@college.edu">club.zenith@college.edu</a></p>
+        <p>📍 Tech Block, Room 204 — Innovation Campus</p>
+      </div>
+      <div class="footer-bottom">
+        &copy; Club Zenith — All Rights Reserved
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
